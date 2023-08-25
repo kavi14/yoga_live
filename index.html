@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zxx" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+<html lang="zxx">
 
 <head>
     <meta charset="UTF-8">
@@ -21,12 +21,28 @@
     <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
     <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
+
+    <style>
+        .iframe-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .iframe-container iframe {
+            width: 100%;
+            max-width: 640px;
+            height: 876px;
+        }
+    </style>
+
 </head>
 
 <body>
-<center>
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdyyMGX5RBBh7ZNhw7tEgwMRA5spAscBebQun-U8lO1pAZDgg/viewform?embedded=true" width="640" height="876" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-</center>
+<div class="iframe-container">
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdyyMGX5RBBh7ZNhw7tEgwMRA5spAscBebQun-U8lO1pAZDgg/viewform?embedded=true" frameborder="0">Loading…</iframe>
+</div>
 </body>
 
 </html>
